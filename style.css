@@ -56,3 +56,33 @@ h1{
 .input-group.error input{
     border-color: rgb(213, 64, 64);
 }
+@media screen and (max-width: 550px) {
+    #form{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 450px) {
+    #form{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 380px) {
+    #form{
+        width: 225px;
+    }
+}
+@media screen and (max-width: 340px) {
+    #form{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 300px) {
+    #form{
+        width: 170px;
+    }
+}
+@media screen and (max-width: 275px) {
+    #form{
+        width: 140px;
+    }
+}
