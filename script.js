@@ -18,6 +18,7 @@ function checkInputs(){
     const emailfinal = email.value.trim();
     const passwordfinal = password.value.trim();
     const cpasswordfinal = cpassword.value.trim();
+    const descfinal1 = desc.value.trim();
     const descfinal = desc.value.split(' ').length;
 
     if (usernamefinal==='') {
@@ -66,7 +67,7 @@ function checkInputs(){
         setRight(cpassword);
         console.log("ph is right!")
     }
-    if (desc===''){
+    if (descfinal1===''){
         setError(desc,'Description is required!');
     }
     else if (descfinal>200){
