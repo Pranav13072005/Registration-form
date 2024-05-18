@@ -7,6 +7,10 @@ body{
 .heading{
     color:white;
     font-weight: 600;
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #form{
     width: 400px;
@@ -64,10 +68,16 @@ h1{
     #form{
         width: 300px;
     }
+    .heading{
+        font-size: 2rem;
+    }
 }
 @media screen and (max-width: 450px) {
     #form{
         width: 250px;
+    }
+    .heading{
+        font-size: 1.7rem;
     }
 }
 @media screen and (max-width: 380px) {
