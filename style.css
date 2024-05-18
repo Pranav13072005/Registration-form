@@ -4,6 +4,10 @@ body{
     margin: 0;
     height: 110vh;
 }
+.heading{
+    color:white;
+    font-weight: 600;
+}
 #form{
     width: 400px;
     margin: 7.5vh auto 0 auto;
